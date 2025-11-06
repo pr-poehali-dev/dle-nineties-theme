@@ -330,15 +330,11 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 mb-4">
             <div className="flex items-center gap-4">
-              <div className="w-14 h-14 bg-gradient-to-br from-primary via-secondary to-accent rounded-lg animate-pulse-glow flex items-center justify-center">
-                <Icon name="Cpu" size={28} className="text-background" />
-              </div>
-              <div>
-                <h1 className="font-retro text-2xl md:text-3xl text-primary retro-text-shadow">
-                  NINETIES<span className="text-secondary">.RU</span>
-                </h1>
-                <p className="text-xs text-muted-foreground">Est. 1995</p>
-              </div>
+              <img 
+                src="https://cdn.poehali.dev/files/cec63d1a-6b6b-46b9-b5f8-6e861803a68c.png" 
+                alt="Nineties.ru"
+                className="h-12 md:h-16 w-auto object-contain"
+              />
             </div>
             <div className="flex items-center gap-4">
               <Badge className="retro-button bg-accent text-accent-foreground font-bold text-base px-4 py-2 flex items-center gap-2">

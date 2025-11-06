@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import Icon from '@/components/ui/icon';
+import MusicPlayer from '@/components/MusicPlayer';
 
 const Index = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -323,6 +324,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background relative">
       <div className="retro-grid fixed inset-0 opacity-20 pointer-events-none" />
+      <MusicPlayer />
       
       <header className="glass-effect border-b-2 border-primary/30 sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4">

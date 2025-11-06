@@ -50,7 +50,7 @@ const Index = () => {
               <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-b from-transparent via-background/50 to-background">
                 <div className="text-center space-y-4 animate-float">
                   <h1 className="font-retro text-4xl md:text-6xl text-primary retro-text-shadow px-4">
-                    <span className="blink">★</span> RETRO90s PORTAL <span className="blink">★</span>
+                    <span className="blink">★</span> NINETIES.RU <span className="blink">★</span>
                   </h1>
                   <p className="text-xl md:text-2xl text-accent font-bold">
                     Добро пожаловать в ностальгию!
@@ -300,7 +300,7 @@ const Index = () => {
               <Card className="glass-effect border-2 border-accent/30 p-6 text-center hover:scale-105 transition-transform">
                 <Icon name="Mail" size={32} className="text-accent mx-auto mb-3" />
                 <h3 className="font-bold text-accent mb-2">EMAIL</h3>
-                <p className="text-foreground">info@retro90s.ru</p>
+                <p className="text-foreground">info@nineties.ru</p>
               </Card>
               <Card className="glass-effect border-2 border-accent/30 p-6 text-center hover:scale-105 transition-transform">
                 <Icon name="Phone" size={32} className="text-accent mx-auto mb-3" />
@@ -335,7 +335,7 @@ const Index = () => {
               </div>
               <div>
                 <h1 className="font-retro text-2xl md:text-3xl text-primary retro-text-shadow">
-                  RETRO<span className="text-secondary">90s</span>
+                  NINETIES<span className="text-secondary">.RU</span>
                 </h1>
                 <p className="text-xs text-muted-foreground">Est. 1995</p>
               </div>
@@ -416,7 +416,7 @@ const Index = () => {
             </div>
             
             <p className="text-foreground text-lg font-bold">
-              © 1995-2025 RETRO90s Portal • Все права защищены
+              © 1995-2025 NINETIES.RU • Все права защищены
             </p>
             <p className="text-muted-foreground">
               Сделано с <span className="text-destructive blink">♥</span> в стиле настоящих 90-х
